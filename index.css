@@ -1,0 +1,108 @@
+body {
+  font-size: 18px;
+  font-family: proxima-nova, sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+h2,
+p,
+a {
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-size: 1rem;
+  max-width: 33rem;
+  text-align: left;
+  margin: 1rem auto;
+  line-height: 1.5rem;
+}
+
+a {
+  color: #d60808;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #0c5989;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 100%;
+  width: 100vw;
+}
+
+.main-container {
+  text-align: center;
+}
+
+.name {
+  font-size: 4rem;
+  letter-spacing: 0.4rem;
+  margin: 0 0 0.25rem 0;
+  text-align: center;
+}
+
+.name a {
+  color: #000;
+}
+
+.name a:hover {
+  color: #0c5989;
+}
+.title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin: 0 0 2rem 0;
+  text-align: center;
+}
+
+.profile-pic {
+  height: 15rem;
+  width: 15rem;
+}
+
+.links {
+  padding: 0;
+}
+
+.links li {
+  display: inline-block;
+  margin: 0 2rem;
+}
+
+.resume {
+  max-width: 45rem;
+  margin: 0 auto;
+}
+
+.resume h1 {
+  color: #073754;
+}
+
+.resume li {
+  line-height: 1.5rem;
+}
+
+.education li,
+.experience li {
+  margin-bottom: 1.65rem;
+}
+
+/* .summary li,
+.current li,
+.honors li {
+  margin-bottom: initial;
+} */
